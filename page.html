@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <audio id="call">
+      <source src="https://docs.google.com/uc?id=1qbWV9Hsv8cWJ65MqDgjFiFgkl8gfRd37" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <script>
+    function notify() {
+      document.getElementById("call").play();
+    }
+    window.onload = function () {
+      notify();
+    }
+    </script>
+  </body>
+</html>
